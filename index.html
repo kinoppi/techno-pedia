@@ -41,6 +41,11 @@
       -webkit-font-smoothing: antialiased;
     }
 
+    .wrapper {
+      max-width: 1080px;
+      margin: 0 auto;
+    }
+
     /* ナビ */
     nav {
       display: flex;
@@ -53,6 +58,8 @@
       background: rgba(255,255,255,0.95);
       backdrop-filter: blur(8px);
       z-index: 100;
+      max-width: 1080px;
+      margin: 0 auto;
     }
 
     .logo {
@@ -394,6 +401,7 @@
   </style>
 </head>
 <body>
+<div class="wrapper">
 
   <!-- ナビ -->
   <nav>
@@ -507,6 +515,10 @@
         <span class="company-key">所在地</span>
         <span class="company-val">〒104-0042 東京都中央区入船1-2-8-706</span>
       </div>
+      <div class="company-row">
+        <span class="company-key">代表</span>
+        <span class="company-val">木下 敦</span>
+      </div>
     </div>
   </section>
 
@@ -562,5 +574,6 @@
     </div>
   </footer>
 
+</div>
 </body>
 </html>
